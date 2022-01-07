@@ -1,0 +1,10 @@
+^D:\REPOS\PI-CALCULATIONS\PI-RAMANUJAN MPIR\BUILD\CMAKEFILES\AB7C624CE6E8873C1484FE17F322F2E5\GENERATE.STAMP.RULE
+setlocal
+E:\programmer\CMake\bin\cmake.exe "-SD:/repos/pi-calculations/pi-ramanujan MPIR" "-BD:/repos/pi-calculations/pi-ramanujan MPIR/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/repos/pi-calculations/pi-ramanujan MPIR/build/pi_ramanujan_mpir.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

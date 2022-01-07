@@ -1,0 +1,10 @@
+^D:\REPOS\PI-CALCULATIONS\PI-RAMANUJAN MPIR\CMAKELISTS.TXT
+setlocal
+E:\programmer\CMake\bin\cmake.exe "-SD:/repos/pi-calculations/pi-ramanujan MPIR" "-BD:/repos/pi-calculations/pi-ramanujan MPIR/build" --check-stamp-file "D:/repos/pi-calculations/pi-ramanujan MPIR/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\repos\pi-calculations\pi-ramanujan MPIR\build\CMakeFiles\ab7c624ce6e8873c1484fe17f322f2e5\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{60408A74-7F88-36F9-B873-59C8704305C8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
