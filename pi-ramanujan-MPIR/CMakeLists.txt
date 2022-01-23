@@ -11,9 +11,9 @@ add_executable("${PROJECT_NAME}" "src/main.cpp")
 set_property(TARGET "${PROJECT_NAME}" PROPERTY MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>") 
 
 # add MPIR's include directory
-target_include_directories("${PROJECT_NAME}" PUBLIC "D:/SDKs/MPIR/lib/x64/Debug")
+target_include_directories("${PROJECT_NAME}" PUBLIC "E:/SDKs/MPIR/lib/x64/Debug")
 # add MPIR's static libraries
 target_link_libraries("${PROJECT_NAME}" 
-	"D:/SDKs/MPIR/lib/x64/Debug/mpir.lib" 
-	"D:/SDKs/MPIR/lib/x64/Debug/mpirxx.lib"
+	"E:/SDKs/MPIR/lib/x64/Debug/mpir.lib" 
+	"E:/SDKs/MPIR/lib/x64/Debug/mpirxx.lib"
 )
